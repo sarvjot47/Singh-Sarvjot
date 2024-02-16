@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="C:\Users\kavit\Documents\styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="site-header" role="banner">
+      <h1>The Gap</h1>
+      <nav class="main-nav" role="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Play</a></li>
+          <li><a href="#reservation">Specials</a></li>
+          <li><a href="#studio">Contacts</a></li>
+        </ul>
+      </nav>
+      
+      <img src="file:///Users/manusaini/Downloads/eaa-s-hydro-500x500.png.webp" class="banner" alt="The bubble">
+    </div>
+    <div class="main-content" role="main">
+      <h1>Welcome to The Gap store</h1>
+      <p>Come and check out our High Quality supplements</p>
+      <p>We never sell fake and anabolic Products</p>
+      <div class="owner" role="contentinfo">
+        <h2>Meet the owner</h2>
+        <ul>
+          <li>Name: Sarvjot </li>
+          <li>Title: Manager</li>
+          <li>Email: <a href=@thegapstore>hello@the-gapstore.com</a></li>
+          <li>Phone: <a href="tel:416 410 7469">416 410 7469</a></li>
+        </ul>
+        <h2>Address</h2>
+        <p>
+          The Gap<br>
+          mcvean and castlemore,<br>
+          Brampton,Caledon<br>
+          L4L 1A6
+        </p>
+      </div>
+      <div class="contact-section" role="form">
+        <h2>Contact Us</h2>
+        <form action="thanks.html">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" placeholder="Full Name" aria-required="true">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email" aria-required="true">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Subject">
+          <label for="message">Your Message</label>
+          <textarea id="message" aria-required="true"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="site-footer" role="contentinfo">
+      &copy; 2024 The Gap / supplements.
+    </div>
+  </div>
+</body>
+
+</html>
